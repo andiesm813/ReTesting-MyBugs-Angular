@@ -198,6 +198,10 @@
       <p igxStepSubTitle>(Optional)</p>
     </igx-step>
   </igx-stepper>
+  <igx-slider [minValue]="0" [maxValue]="100" [step]="10" [secondaryTickLabels]="false" [(ngModel)]="value" class="slider"></igx-slider>
+  <igx-slider [minValue]="0" [maxValue]="100" [step]="10" [secondaryTickLabels]="false" [(ngModel)]="value" class="slider"></igx-slider>
+  <igx-slider [minValue]="0" [maxValue]="100" [step]="10" [secondaryTickLabels]="false" [(ngModel)]="value" class="slider"></igx-slider>
+  <igx-slider [minValue]="0" [maxValue]="100" [step]="10" [secondaryTickLabels]="false" [(ngModel)]="value" class="slider"></igx-slider>
 </div>
 <div class="column-layout group_4">
   <igx-input-group type="border" class="user-input">
@@ -214,15 +218,15 @@
     </igx-select-item>
     <label igxLabel>First Select</label>
   </igx-select>
-  <igx-date-picker type="border" mode="dialog" class="date-picker">
-    <label igxLabel>Date</label>
-  </igx-date-picker>
   <igx-select type="border" class="user-input">
     <igx-select-item value="Option">
       Option
     </igx-select-item>
     <label igxLabel>Copied and Pasted 1s Select</label>
   </igx-select>
+  <igx-date-picker type="border" mode="dialog" class="date-picker">
+    <label igxLabel>Date</label>
+  </igx-date-picker>
   <igx-date-picker type="border" mode="dialog" class="date-picker">
     <label igxLabel>Date</label>
   </igx-date-picker>
