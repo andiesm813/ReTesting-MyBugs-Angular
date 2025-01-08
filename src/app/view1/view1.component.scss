@@ -90,6 +90,10 @@
   height: max-content;
   flex-shrink: 0;
 }
+.slider {
+  height: max-content;
+  min-width: 50px;
+}
 .date-picker {
   height: max-content;
   min-width: 120px;
