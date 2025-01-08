@@ -1,7 +1,7 @@
 <igx-navbar class="navbar">
   <igx-navbar-action>
-    <button igxRipple igxIconButton="flat" [igxToggleAction]="navDrawer">
-      <igx-icon>
+    <button igxRipple igxIconButton="flat" [igxToggleAction]="navDrawer" class="icon-button">
+      <igx-icon class="icon">
         menu
       </igx-icon>
     </button>
@@ -28,22 +28,22 @@
   </button>
 </igx-navbar>
 <div class="row-layout group">
-  <igx-nav-drawer [isOpen]="true" [pinThreshold]="0" width="200px" #navDrawer class="nav-drawer">
+  <igx-nav-drawer [pinThreshold]="0" width="200px" #navDrawer class="nav-drawer">
     <ng-template igxDrawer>
       <div igxDrawerItem igxRipple routerLink="/view1">
-        <igx-icon class="icon">
+        <igx-icon class="icon_1">
           home
         </igx-icon>
         <span>All Components</span>
       </div>
       <div igxDrawerItem igxRipple routerLink="/view2">
-        <igx-icon class="icon">
+        <igx-icon class="icon_1">
           dns
         </igx-icon>
         <span>View 2</span>
       </div>
       <div igxDrawerItem igxRipple routerLink="/view3">
-        <igx-icon class="icon">
+        <igx-icon class="icon_1">
           dashboard
         </igx-icon>
         <span>View 3</span>

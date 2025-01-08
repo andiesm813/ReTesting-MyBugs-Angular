@@ -21,13 +21,20 @@
   position: relative;
   flex-grow: 1;
 }
+.icon-button {
+  --igx-button-foreground: var(--ig-info-500);
+  --igx-button-background: var(--ig-gray-500);
+}
 .navbar-content {
   gap: 1rem;
+}
+.icon {
+  color: var(--ig-info-500);
 }
 .h6 {
   margin: 0;
 }
-.icon {
+.icon_1 {
   --size: 24px;
   font-size: 24px;
   width: 24px;
