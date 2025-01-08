@@ -205,7 +205,8 @@
     <igx-slider [minValue]="0" [maxValue]="100" [step]="10" [secondaryTickLabels]="false" [(ngModel)]="value" class="slider"></igx-slider>
   </div>
 </div>
-<div class="column-layout group_5">
+<div class="column-layout group">
+  <igx-calendar [hasHeader]="true" headerOrientation="horizontal" class="calendar"></igx-calendar>
   <igx-input-group type="border" class="user-input">
     <input type="text" igxInput />
     <label igxLabel>Label</label>
