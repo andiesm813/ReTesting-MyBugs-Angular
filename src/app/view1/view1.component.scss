@@ -35,6 +35,13 @@
   --ig-size: var(--ig-size-medium);
   height: max-content;
 }
+.icon-button {
+  --igx-button-foreground: var(--ig-surface-500);
+  --igx-button-background: var(--ig-secondary-500);
+}
+.icon {
+  color: var(--ig-surface-500);
+}
 .text {
   height: max-content;
   min-width: min-content;
