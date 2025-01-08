@@ -34,6 +34,13 @@
 }
 .group_2 {
   justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
+.group_3 {
+  justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
   gap: 16px;
@@ -55,7 +62,7 @@
 .tab-item {
   min-width: 100%;
 }
-.group_3 {
+.group_4 {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
@@ -66,7 +73,7 @@
   flex-grow: 1;
   flex-basis: 0;
 }
-.group_4 {
+.group_5 {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
@@ -75,7 +82,7 @@
   min-width: 50px;
   min-height: 50px;
 }
-.group_5 {
+.group_6 {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
@@ -168,6 +175,27 @@
 .icon_1 {
   color: var(--ig-surface-500);
 }
+.avatar {
+  --ig-size: var(--ig-size-small);
+}
+.avatar_1 {
+  --ig-size: var(--ig-size-medium);
+}
+.avatar_2 {
+  --ig-size: var(--ig-size-large);
+}
+.avatar_3 {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: transparent;
+}
+.avatar_4 {
+  --ig-size: var(--ig-size-medium);
+  --igx-avatar-background: transparent;
+}
+.avatar_5 {
+  --ig-size: var(--ig-size-large);
+  --igx-avatar-background: transparent;
+}
 .icon_2 {
   --size: 24px;
   font-size: 24px;
@@ -186,13 +214,17 @@
 .calendar {
   height: max-content;
 }
-.tree {
-  min-width: max-content;
-  min-height: max-content;
-  flex-shrink: 0;
+.badge {
+  width: max-content;
+  height: max-content;
 }
 .notification {
   height: max-content;
   min-width: min-content;
+  flex-shrink: 0;
+}
+.tree {
+  min-width: max-content;
+  min-height: max-content;
   flex-shrink: 0;
 }
