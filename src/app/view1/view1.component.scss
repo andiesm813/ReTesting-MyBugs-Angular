@@ -22,6 +22,16 @@
   min-height: 50px;
   max-width: 400px;
 }
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
 .button {
   --igx-button-background: var(--ig-secondary-200);
   --ig-size: var(--ig-size-medium);
