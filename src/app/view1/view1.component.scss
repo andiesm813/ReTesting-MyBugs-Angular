@@ -49,12 +49,26 @@
 }
 .group_4 {
   justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+}
+.group_5 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+}
+.group_6 {
+  justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
   gap: 16px;
   position: relative;
 }
-.group_5 {
+.group_7 {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
@@ -77,7 +91,7 @@
 .tab-item {
   min-width: 100%;
 }
-.group_6 {
+.group_8 {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
@@ -88,7 +102,7 @@
   flex-grow: 1;
   flex-basis: 0;
 }
-.group_7 {
+.group_9 {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
@@ -97,7 +111,7 @@
   min-width: 50px;
   min-height: 50px;
 }
-.group_8 {
+.group_10 {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
@@ -126,6 +140,16 @@
 }
 .radio {
   padding: 8px;
+}
+.rating {
+  --ig-size: var(--ig-size-small);
+  width: max-content;
+  height: max-content;
+}
+.rating_1 {
+  --ig-size: var(--ig-size-medium);
+  width: max-content;
+  height: max-content;
 }
 .button_2 {
   --ig-size: var(--ig-size-medium);
