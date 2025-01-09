@@ -16,8 +16,7 @@
   align-content: flex-start;
   gap: 16px;
   position: relative;
-  padding: 32px;
-  min-width: 50px;
+  min-width: 400px;
   min-height: 50px;
   flex-grow: 1;
   flex-basis: 0;
@@ -38,6 +37,7 @@
   align-content: flex-start;
   gap: 8px;
   position: relative;
+  flex-shrink: 0;
 }
 .group_3 {
   justify-content: flex-start;
@@ -113,8 +113,10 @@
 .button_1 {
   --ig-size: var(--ig-size-medium);
   height: max-content;
+  flex-grow: 1;
+  flex-basis: 0;
 }
-.user-input_1 {
+.user-input_2 {
   height: max-content;
   min-width: min-content;
 }
@@ -128,15 +130,19 @@
 .button_2 {
   --ig-size: var(--ig-size-medium);
   height: max-content;
-  flex-shrink: 0;
 }
-.slider {
+.button_3 {
+  --ig-size: var(--ig-size-medium);
   height: max-content;
-  min-width: 50px;
+  flex-shrink: 0;
 }
 .date-picker {
   height: max-content;
   min-width: 120px;
+}
+.slider {
+  height: max-content;
+  min-width: 50px;
 }
 .icon-button {
   --igx-button-foreground: var(--ig-surface-500);
@@ -167,6 +173,7 @@
 .stepper {
   min-width: 0;
   min-height: 0;
+  flex-shrink: 0;
 }
 .step-content {
   justify-content: flex-start;
