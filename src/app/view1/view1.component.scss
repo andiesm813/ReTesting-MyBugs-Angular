@@ -226,22 +226,13 @@
 }
 .avatar {
   --ig-size: var(--ig-size-small);
+  --igx-avatar-background: transparent;
 }
 .avatar_1 {
   --ig-size: var(--ig-size-medium);
+  --igx-avatar-background: transparent;
 }
 .avatar_2 {
-  --ig-size: var(--ig-size-large);
-}
-.avatar_3 {
-  --ig-size: var(--ig-size-small);
-  --igx-avatar-background: transparent;
-}
-.avatar_4 {
-  --ig-size: var(--ig-size-medium);
-  --igx-avatar-background: transparent;
-}
-.avatar_5 {
   --ig-size: var(--ig-size-large);
   --igx-avatar-background: transparent;
 }
