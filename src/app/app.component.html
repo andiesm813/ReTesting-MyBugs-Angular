@@ -28,19 +28,17 @@
   </button>
 </igx-navbar>
 <div class="row-layout group">
-  <igx-nav-drawer [pinThreshold]="0" width="200px" #navDrawer class="nav-drawer">
+  <igx-nav-drawer [pin]="true" width="200px" #navDrawer class="nav-drawer">
     <ng-template igxDrawer>
       <div igxDrawerItem igxRipple routerLink="/view1">
-        <igx-icon class="icon_1">
-          home
-        </igx-icon>
-        <span>All Components</span>
+        <igx-icon family="imx-icon" name="imx-usa-party-democratic" class="icon_1"></igx-icon>
+        <span>Material Ext Icon</span>
       </div>
       <div igxDrawerItem igxRipple routerLink="/view2">
         <igx-icon class="icon_1">
           dns
         </igx-icon>
-        <span>View 2</span>
+        <span>Lala</span>
       </div>
       <div igxDrawerItem igxRipple routerLink="/view3">
         <igx-icon class="icon_1">
@@ -53,4 +51,48 @@
   <div class="view-container">
     <router-outlet></router-outlet>
   </div>
+  <igx-nav-drawer [pin]="true" width="200px" class="nav-drawer">
+    <ng-template igxDrawerMini>
+      <div igxDrawerItem igxRipple routerLink="/view3">
+        <igx-icon class="icon_1">
+          dashboard
+        </igx-icon>
+      </div>
+      <div [isHeader]="true" igxDrawerItem igxRipple routerLink="/view1">
+        <igx-icon class="icon_1">
+          home
+        </igx-icon>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/view1">
+        <igx-icon class="icon_1">
+          home
+        </igx-icon>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/view2">
+        <igx-icon class="icon_1">
+          dns
+        </igx-icon>
+      </div>
+    </ng-template>
+    <ng-template igxDrawer>
+      <div igxDrawerItem igxRipple routerLink="/view1">
+        <igx-icon class="icon_1">
+          home
+        </igx-icon>
+        <span>All Components</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/view2">
+        <igx-icon class="icon_1">
+          dns
+        </igx-icon>
+        <span>Lala</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/view3">
+        <igx-icon class="icon_1">
+          dashboard
+        </igx-icon>
+        <span>View 3</span>
+      </div>
+    </ng-template>
+  </igx-nav-drawer>
 </div>
